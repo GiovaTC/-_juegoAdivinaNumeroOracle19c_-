@@ -4,6 +4,7 @@ Aplicación de consola desarrollada en Java 21, utilizando IntelliJ IDEA, Maven 
 
 <img width="1254" height="1254" alt="image" src="https://github.com/user-attachments/assets/9de83b08-53d1-4b90-92e7-46ff4fe5769d" />
 
+<img width="2551" height="1078" alt="image" src="https://github.com/user-attachments/assets/3896fe3c-d1ac-4af7-81ed-e4447bc4b9e8" />    
 ```
 
 El juego genera un número aleatorio entre 1 y 10. El usuario debe ingresar un número y el programa evalúa el resultado mediante tres condicionales (if, else if y else). Cada partida se almacena en una tabla de Oracle 19c mediante JDBC.
