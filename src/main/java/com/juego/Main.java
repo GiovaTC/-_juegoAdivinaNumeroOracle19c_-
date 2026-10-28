@@ -1,17 +1,31 @@
 package com.juego;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
-    public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.util.Random;
+import java.util.Scanner;
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+public class Main {
+
+    public static void main(String[] args)
+    {
+
+        Scanner teclado = new Scanner(System.in);
+        Random aleatorio = new Random();
+
+        // GENERAR numero secreto entre 1 y 10 .
+        int numeroSecreto = aleatorio.nextInt(10) + 1;
+
+        int numeroIngresado;
+        String resultado;
+
+        System.out.println("=================================");
+        System.out.println("     JUEGO ADIVINA EL NUMERO");
+        System.out.println("=================================");
+
+        System.out.println("Adivina un numero entre 1 y 10");
+        System.out.print("Ingresa tu numero: ");    
+
     }
 }
